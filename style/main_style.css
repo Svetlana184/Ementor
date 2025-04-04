@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Raleway;
+  line-height: 120%;
+  color: #353A5A;
+  align-items: center;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-color: #10B582;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav {
+  height: 10%;
+  width: 60%;
+}
+header nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+header nav ul li a {
+  color: white;
+  font-size: 16px;
+}
+header .header_main {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header .header_main .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-start;
+  height: 20%;
+}
+header .header_main .first_pic {
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-start;
+  border-radius: 0 80px 0 0;
+}
+header .header_main .second_pic {
+  display: flex;
+  align-self: flex-start;
+  justify-self: flex-end;
+  border-radius: 80px 0 0 0;
+}
+header .header_main .center_header {
+  margin: 3vw;
+  width: 60%;
+  height: 55%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header_main .center_header h1 {
+  font-size: 56px;
+  line-height: 120%;
+}
+
+.numbers {
+  height: 30vh;
+  width: 90%;
+}
+.numbers ul {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.numbers ul li {
+  width: 20%;
+  height: 80%;
+  text-align: center;
+}
+.numbers ul li h3 {
+  font-size: 58px;
+  color: #10B582;
+}
+.numbers ul li p {
+  font-size: 14px;
+}
+
+.teachers {
+  height: 70vh;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.teachers .about_teachers {
+  height: 70%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.teachers .about_teachers h2 {
+  font-size: 56px;
+}
+.teachers .about_teachers p {
+  font-size: 16px;
+}
+.teachers .teacher_pics {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.teachers .teacher_pics ul {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+.format {
+  height: 60vh;
+  width: 100%;
+  background-color: #10B582;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.format img {
+  height: 60%;
+  border-radius: 0 120px 0 0;
+}
+.format div {
+  height: 70%;
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.format div h2 {
+  font-size: 3em;
+  color: white;
+  line-height: 120%;
+}
+.format div p {
+  font-size: 16px;
+  color: white;
+}
+
+.courses {
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+  height: 55vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.courses h2 {
+  font-size: 58px;
+}
+.courses ul {
+  width: 100%;
+  height: 70%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses ul li {
+  width: 21%;
+  height: 80%;
+  box-shadow: 5px 5px 5px 5px rgb(235, 235, 235);
+  text-align: left;
+}
+.courses button {
+  width: 20%;
+}
+
+.banner {
+  margin-bottom: 15vh;
+  height: 60vh;
+  width: 100%;
+  background-image: url(assets/banner_main_pic.png);
+  background-position: hover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.banner div {
+  width: 40%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner div h2 {
+  font-size: 54px;
+  line-height: 120%;
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .footer_top {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+footer .footer_top .div_first {
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer_top .div_last {
+  width: 20%;
+}
+footer .footer_top ul {
+  height: 60%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer_top .logo {
+  width: 55%;
+}
+footer .footer_bottom {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+footer .footer_bottom div {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .create_line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(199, 199, 199);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #353A5A;
+  text-decoration: none;
+}
+
+.button_green {
+  background-color: #10B582;
+  width: 40%;
+  height: 15%;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 30px 0 30px;
+  border-color: #10B582;
+}
+
+.button_orange {
+  background-color: orange;
+  width: 40%;
+  height: 15%;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 30px 0 30px;
+  border-color: orange;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(/Ementer-main/Raleway/Raleway-VariableFont_wght.ttf);
+}/*# sourceMappingURL=main_style.css.map */
